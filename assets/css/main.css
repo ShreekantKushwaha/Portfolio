@@ -640,8 +640,8 @@ section,
 .section-title h2 {
   font-size: 32px;
   font-weight: 700;
-  margin-bottom: 20px;
-  padding-bottom: 20px;
+  margin-bottom: 5px;
+  padding-bottom: 5px;
   position: relative;
 }
 
@@ -649,7 +649,7 @@ section,
   content: "";
   position: absolute;
   display: block;
-  width: 50px;
+  width: 125px;
   height: 3px;
   background: var(--accent-color);
   left: 0;
@@ -786,7 +786,7 @@ section,
   content: "";
   position: absolute;
   display: block;
-  width: 64px;
+  width: 130px;
   height: 3px;
   background: var(--accent-color);
   left: 0;
@@ -1330,6 +1330,8 @@ section,
 .contact .info-item:hover i {
   background: var(--accent-color);
   color: var(--contrast-color);
+  width: 56px;
+  height: 56px;
 }
 
 .contact .php-email-form {

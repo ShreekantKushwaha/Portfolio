@@ -798,6 +798,12 @@ section,
   font-size: 18px;
 }
 
+.portfolio_img {
+    max-width: 100%;
+    height: 200px;
+    width: 230px;
+}
+
 /*--------------------------------------------------------------
 # Resume Section
 --------------------------------------------------------------*/
@@ -835,10 +841,11 @@ section,
 
 .resume .resume-item ul {
   padding-left: 20px;
+  margin-bottom: 8px;
 }
 
 .resume .resume-item ul li {
-  padding-bottom: 10px;
+  padding-bottom: 5px;
 }
 
 .resume .resume-item:last-child {
